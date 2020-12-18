@@ -1,0 +1,107 @@
+          /* PAGE PRINCIPALE */
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+body{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+svg{
+    width: 100%;
+    flex-grow: 25;
+}
+header{
+    display: flex;
+    /* justify-content: baseline; */
+    margin: 1em auto;
+}
+.section1{
+    display: flex;
+    background-color: #f0f0ef;
+    align-items: center;
+}
+.section2{
+    display: flex;
+    background-color: #f0f0ef;
+}
+footer{
+    background-color: black;
+}
+figure{
+    height: 100%;
+}
+header>nav{
+    flex-grow: 50;
+    flex-basis: 0;
+    text-align: center;
+    margin: auto;
+    
+}
+li{
+    display: inline;
+    list-style: none;
+    padding: 0;
+    margin-right: 1em;
+    /* text-align: center; */
+}
+li>a{
+    text-decoration: none;
+    color: grey;
+}
+div{
+    margin: auto;
+}
+main{
+    flex-grow: 7;
+    flex-basis: 0;
+}
+aside{
+    align-self: center;
+}
+aside>*{
+    margin-bottom: 1em;
+}
+aside a{
+    text-decoration: none;
+    background-color: yellow;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+article{
+    flex-grow: 2;
+    flex-basis: 0;
+    align-items: center;
+}
+footer{
+    margin-top: 1%;
+}
+footer p{
+    color: white;
+}
+button{
+    background-color: yellow;
+}
+.captur{
+    flex-grow: 2;
+    flex-basis: 0;
+}
+strong{
+    text-transform:uppercase;
+}
+h2{
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-size: smaller;
+    text-transform: uppercase;
+}
+    /* FIN PAGE PRINCIPALE */

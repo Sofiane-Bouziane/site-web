@@ -1,0 +1,82 @@
+body{
+    width: 90%;
+    /* text-align: center; */
+    margin: auto;
+}
+svg{
+    width: 100%;
+    flex-grow: 25;
+}
+header>nav{
+    flex-grow: 50;
+    flex-basis: 0;
+    text-align: center;
+    margin: auto;
+    
+}
+header{
+    display: flex;
+    /* justify-content: baseline; */
+    margin: 1em auto;
+    align-items: center;
+    
+}
+li{
+    display: inline;
+    list-style: none;
+    padding: 0;
+    margin-right: 1em;
+    /* text-align: center; */
+    ;
+}
+li>a{
+    align-self: center;
+    text-decoration: none;
+    color: grey;
+    align-items:center.
+}
+button{
+    background-color: yellow;
+}
+section.formulaire{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    background-color:#f0f0ef;
+}
+h1{
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    align-content: center;
+    margin: auto;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+p.footer{
+    padding-top: 4%;
+}
+label{
+    display: block;
+    width: 100px;
+    float: left;
+    margin-left:33%;
+    
+}
+div{
+    margin-bottom: 0.5em;
+    
+}
+.button{
+    text-align: center;
+    margin: auto;
+}
+div>input{
+    margin-right: 1em;
+}
